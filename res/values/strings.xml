@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My App Test</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_second">Second Activity</string>
+    <string name="btn1">Ileri</string>
+    <string name="btn2">Kullanıcıyı Kaydet</string>
+    <string name="title_activity_deneme">Deneme</string>
+    <string name="txtUsername">Username</string>
+    <string name="txtPass">Password</string>
+    <string name="txtUyelikNo">Uyelik Numarası</string>
+    <string name="eMail">Mail</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_dinamik">Dinamik</string>
+    <string name="title_activity_drop">Drop</string>
+    <string name="ulke_sec">Ülke Seçiniz</string>
+	<string name="aciklama"> "Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+	    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad 
+	    minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
+	    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+	    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+	     non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</string>
+	     
+	
+    <string-array name="ulkeler">
+        <item>Türkiye</item>
+        <item>Almanya</item>
+        <item>Amerika</item>
+        <item>Fransa</item>
+        <item>İngiltere</item>
+    </string-array>
+
+    <string name="title_activity_grid">Grid</string>
+
+</resources>

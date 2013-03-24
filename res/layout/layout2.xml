@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    
+ <TableRow
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" 
+     android:weightSum="1">
+     
+      <TextView 
+        
+        android:text="@string/txtUsername"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        />
+
+      <EditText
+          android:id="@+id/kulaniciAdi"
+          android:layout_width="200dip"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:inputType="text" 
+           android:layout_weight="0.5">
+
+          <requestFocus />
+      </EditText>
+    
+ </TableRow>   
+
+   <TableRow
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" 
+       android:weightSum="1">
+       
+    <TextView 
+        
+        android:text="@string/txtPass"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        />
+    
+    <EditText 
+        android:id="@+id/sifre"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_weight="0.5"
+        />
+    
+    
+   </TableRow>
+    
+   <LinearLayout android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:weightSum="1">
+       
+        <TextView 
+        
+        android:text="@string/eMail"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        />
+    
+    <EditText 
+        android:id="@+id/mail"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:inputType="textEmailAddress"
+    	/>
+       
+   </LinearLayout>
+   
+   
+   
+     <TableRow
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" 
+         android:weightSum="1">
+
+         <TextView 
+        
+        android:text="@string/txtUyelikNo"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        />
+    
+    <EditText 
+        android:id="@+id/uyelikNo"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_weight="0.5"
+    	/>
+     </TableRow>
+    
+    
+     <Button 
+       android:id="@+id/btnKullaniciKaydet"
+       android:text="@string/btn2"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       
+      
+       
+       />
+   		<Button 
+   		    android:id="@+id/third"
+   		    android:layout_width="fill_parent"
+   		    android:layout_height="wrap_content"
+   		    android:text="3. sayfaya git"/>
+
+</LinearLayout>
